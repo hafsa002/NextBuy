@@ -9,3 +9,85 @@
 /*font-family: 'Poppins', sans-serif;
 font-family: 'Playfair', serif;*/
 
+/*navbar customization*/
+
+.navbar{
+  font-family: 'Playfair', serif;
+  background: rgba(255, 98, 0, 0.848);
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 1px 1px 2px rgb(194, 191, 191);
+}
+
+.nav-link{
+  color: black;
+}
+
+.active{
+  border-bottom: 1px solid black;
+}
+
+.navbar-brand{
+  color: White;
+  
+  
+ 
+}
+
+.navbar-brand-identity a{
+  font-weight: 700;
+  color: White;
+
+}
+
+.navbar-brand-identity a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.store-title{
+  color: black;
+}
+
+.store-title:hover{
+  color: white;
+}
+/*footer*/
+.footer a{
+  color:  rgba(255, 98, 0, 0.848);
+}
+
+.footer a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  
+}
+
+.pnf-subtitle{
+  padding: 10px;
+  color: rgb(255, 132, 0);
+
+}
+
+.pnf-btn{
+  padding: 10px;
+  background-color: bisque;
+  padding: 10px;
+  border: .2px solid rgb(255, 132, 0);
+  color: black;
+}
+
+.pnf a:hover{
+  text-decoration: none;
+
+}

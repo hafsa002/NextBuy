@@ -4,10 +4,12 @@ import Layout from '../components/layout/Layout';
 
 const  About = () => {
     return (
-       <Layout>
+       <Layout title = 'About us - NextBuy'>
             <h1> About </h1>
         </Layout>
     );
 };
 
 export default About;
+
+//tutorial 9
