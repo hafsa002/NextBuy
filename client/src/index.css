@@ -20,6 +20,9 @@ font-family: 'Playfair', serif;*/
   box-shadow: 0 1px 1px 2px rgb(194, 191, 191);
 }
 
+.navbar button{
+  color: black;
+}
 .nav-link{
   color: black;
 }
@@ -29,15 +32,15 @@ font-family: 'Playfair', serif;*/
 }
 
 .navbar-brand{
-  color: White;
-  
-  
+  color: White; 
  
 }
+
 
 .navbar-brand-identity a{
   font-weight: 700;
   color: White;
+  text-decoration: none;
 
 }
 
@@ -53,6 +56,8 @@ font-family: 'Playfair', serif;*/
 .store-title:hover{
   color: white;
 }
+
+
 /*footer*/
 .footer a{
   color:  rgba(255, 98, 0, 0.848);
@@ -90,4 +95,23 @@ font-family: 'Playfair', serif;*/
 .pnf a:hover{
   text-decoration: none;
 
+}
+
+/*register*/
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  font-family: 'Playfair', serif;
+ 
+}
+
+
+.registration-form{
+  margin-top: 20px;
+  text-align: center;
+  width: 50vh;
 }
